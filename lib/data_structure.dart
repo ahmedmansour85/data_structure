@@ -50,7 +50,7 @@ Node? findMiddle(Node? head) {
 }
 
 Node? reverseLinkedList(Node? head) {
-  Node? prev = null;
+  Node? prev;
   Node? current = head;
   while (current != null) {
     Node? next = current.next;
